@@ -18,7 +18,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return jsonify({"message": "Hello, World!"})
+    return jsonify({"message": "Hello, World! Garmonsor"})
 
 @app.route("/items/<int:item_id>")
 def get_item(item_id):
